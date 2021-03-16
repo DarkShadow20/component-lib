@@ -9,10 +9,12 @@
 
 .btn{
     padding: 0.5rem 1rem;
+    margin: 0.2rem 0.6rem;
     border:none;
     outline: none;
     font-size: 0.9rem;
     cursor: pointer;
+    border-radius: 5px;
 }
 .btn-primary{
     color: #fff;

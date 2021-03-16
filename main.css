@@ -6,6 +6,12 @@
 @import url("list.css");
 @import url("typo.css");
 @import url("input.css");
+@import url("toast.css");
+@import url("rating.css");
+@import url("modal.css");
+@import url("card.css");
+
+
  *{
      box-sizing: border-box;
  }
