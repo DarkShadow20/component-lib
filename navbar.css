@@ -1,0 +1,19 @@
+:root{
+    --bar-color: #2563EB;
+}
+.nav-bar{
+    display: flex;
+    background-color: var(--bar-color);
+    color: #fff;
+    padding: 1rem 1rem 1rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-items{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.list-items li{
+    padding: 0.3rem 2em;
+}

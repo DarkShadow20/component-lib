@@ -1,0 +1,16 @@
+@import url("avatar.css");
+@import url("alert.css");
+@import url("badge.css");
+@import url("button.css");
+@import url("navbar.css");
+@import url("list.css");
+@import url("typo.css");
+@import url("input.css");
+ *{
+     box-sizing: border-box;
+ }
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 1rem;
+}
