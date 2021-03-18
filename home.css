@@ -78,9 +78,8 @@ iframe
   .main-section{
       margin-top: 0.5rem;
       margin-right: 2rem;
-      border: 1px solid black;
   }
-  .alert-collection, .avatar-collection,.badge-collection,.button-collection,.card-collection{
+  .alert-collection, .avatar-collection,.badge-collection,.button-collection,.card-collection,.input-collection,.modal-collection,.navigation-collection,.typography-collection{
     margin: 1.2rem 0 0 1.2rem;
     padding: 1.2rem;
     border: 2px solid rgba(206, 205, 205, 0.548);
@@ -114,4 +113,19 @@ iframe
   .card-collection button{
     margin-top: 1rem;
     margin-left: -0.1rem;
+  }
+  .input-collection{
+    height: 47em;
+  }
+  .input-collection iframe{
+    margin: 1rem 0;
+  }
+  .modal-collection{
+    height: 48em;
+  }
+  .navigation-collection{
+    height: 50em;
+  }
+  .typography-collection{
+    height: 92em;
   }
