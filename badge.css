@@ -37,9 +37,11 @@
 /* avatar badge */
 .inactive-badge{
     background-color: #EDA11A;
+    border: 2px solid #fff;
 }
 .active-badge{
     background-color: #42B782;
+    border: 2px solid #fff;
 }
 
 .small-avatar-container,.medium-avatar-container,.large-avatar-container{

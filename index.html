@@ -6,265 +6,170 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-    <title>Component Library</title>
+    <link rel="stylesheet" href="home.css">
+    <title>NueUI</title>
 </head>
 <body>
-    <!-- Avatar -->
-    <div>
-        <img class="avatar" src="img/emil-widlund-63XLTQplNlg-unsplash.jpg">
-        <img class="mid-avatar" src="img/emil-widlund-63XLTQplNlg-unsplash.jpg">
-        <img class="large-avatar" src="img/emil-widlund-63XLTQplNlg-unsplash.jpg">
-    </div>
-    <hr/>
-    <br/>
-    <!--Alert  -->
-    <div>
-        <div class="alert-primary">This is primary alert</div>
-        <div class="alert-error">This is error alert</div>
-        <div class="alert-success">This is success alert</div>
-        <div class="alert-info">This is info alert</div>
-        <div class="alert-warning">This is warning alert</div>
-    </div>
-    <hr/>
-    <br/>
-    <!-- Badge -->
-    <div>
-        <div class="alert-primary"><span class="primary-badge">primary</span>This is primary alert</div>
-        <div class="alert-error"><span class="error-badge">error</span>This is error alert</div>
-        <div class="alert-success"><span class="success-badge">success</span>This is success alert</div>
-        <div class="alert-info"><span class="info-badge">info</span>This is info alert</div>
-        <div class="alert-warning"><span class="warning-badge">warning</span>This is warning alert</div>
-    </div>
-    <!-- Avatar badge -->
-    <div class="small-avatar-container">
-        <img class="avatar" src="img/emil-widlund-63XLTQplNlg-unsplash.jpg">
-        <div class="inactive-badge"></div>
-    </div>
-    <div class="small-avatar-container">
-        <img class="avatar" src="img/emil-widlund-63XLTQplNlg-unsplash.jpg">
-        <div class="active-badge"></div>
-    </div>
-    <div class="medium-avatar-container">
-        <img class="mid-avatar" src="img/emil-widlund-63XLTQplNlg-unsplash.jpg">
-        <div class="inactive-badge"></div>
-    </div>
-    <div class="medium-avatar-container">
-        <img class="mid-avatar" src="img/emil-widlund-63XLTQplNlg-unsplash.jpg">
-        <div class="active-badge"></div>
-    </div>
-    <div class="large-avatar-container">
-        <img class="large-avatar" src="img/emil-widlund-63XLTQplNlg-unsplash.jpg">
-        <div class="inactive-badge"></div>
-    </div>
-    <div class="large-avatar-container">
-        <img class="large-avatar" src="img/emil-widlund-63XLTQplNlg-unsplash.jpg">
-        <div class="active-badge"></div>
-    </div>
-    <hr/>
-    <br/>
-    <!-- butttons -->
-    <div>
-        <button class="btn btn-primary">Primary</button>
-        <button class="btn btn-success">Success</button>
-        <button class="btn btn-danger">Danger</button>
-        <button class="btn btn-warning">Warning</button>
-        <button class="btn btn-info">Info</button>
-        <button class="btn btn-link">Link</button>
-        <button class="btn btn-icon"><i class="far fa-address-book"></i></button>
-        <button class="btn btn-float"><i class="fas fa-minus"></i></button>
-    </div>
-    <hr/>
-    <br>
-    <!-- nav bar -->
-    <div class="nav-bar">
-        <div class="Logo">Logo</div>
-        <div>
-            <ul class="list-items">
-                <li>Home</li>
-                <li>Profile</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </div>
-    </div>
-    <hr/>
-    <br>
-    <!-- list -->
-    <ul class="list-non-bullet">
-        <li>Home</li>
-        <li>Profile</li>
-        <li>About</li>
-        <li>Contact</li>
-    </ul>
-    <ul class="list-non-bullet list-flex">
-        <li>Home</li>
-        <li>Profile</li>
-        <li>About</li>
-        <li>Contact</li>
-    </ul>
-    <ul class="list-non-bullet list-stack">
-        <li>Home</li>
-        <li>Profile</li>
-        <li>About</li>
-        <li>Contact</li>
-    </ul>
-    <hr/>
-    <br/>
-    <!-- text-util -->
-    <div>
-        <h1>Heading</h1>
-        <h2>Heading</h2>
-        <h3>Heading</h3>
-        <h4>Heading</h4>
-        <h5>Heading</h5>
-        <h6>Heading</h6>
-        <p class="italic-element centered-text">Hello <span class="strong-element underline-element">My name is</span><span class="mark">Kunal</span></p>
-    </div>
-    <hr/>
-    <br>
-    <!-- input -->
-    <div class="input-group-prepend">
-        <span class="input-group-text basic-addon1">@</span>
-        <input class="input-field" type="text" placeholder="enter username">
-    </div>
-    <br/>
-    <div class="input-group-prepend">
-        <span class="input-group-text medium-size basic-addon-1" >medium</span>
-        <input
-          class="input-field medium-size"
-          type="text"
-          placeholder="Username"
-        />
-      </div>
-      <br />
-  
-      <div class="input-group-prepend">
-        <span class="input-group-text large-size basic-addon-1" >large</span>
-        <input
-          class="input-field large-size"
-          type="text"
-          placeholder="Username"
-        />
-      </div>
-      <div class="sign-up">
-        <div>
-          <input type="text" id="first_name" name="first_name" required placeholder=" First Name" class="input-group-text input-field"/>
-          <label for="first_name"></label>
-        </div>
-        
-        <div>
-          <input type="text" id="last_name" name="last_name" required placeholder=" Last Name" class="input-group-text input-field"/>
-          <label for="last_name"></label>
-        </div>
-        
-        <div>
-          <input type="email" id="email" name="email" required placeholder="Email Address" class="input-group-text input-field"/>
-          <label for="email"></label>
-          <div class="requirements">
-            Must be a valid email address.
-          </div>
-        </div>
-        
-        <div>
-          <input type="password" id="password" name="password" required placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"class="input-group-text input-field" />
-          <label for="password"></label>
-          <div class="requirements">
-            Your password must be at least 6 characters as well as contain at least one uppercase, one lowercase, and one number.
-          </div>
-        </div>
-        
-        <input type="submit" value="Sign Up" class="btn btn-primary" />
-    </div>
-      <br />
-      <hr/>
-      <!--  Toasts-->
-      <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="toast-header">
-          <strong class="mr-auto">NameOfLib</strong>
-          <small>11 mins ago</small>
-          <button type="button" class="close" data-dismiss="toast" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="toast-body">
-          Hello, world! This is a toast message.
-        </div>
-      </div>
-      <hr/>
-      <br/>
-      <!--Rating  -->
-      <div>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star"></span>
-        <span class="fa fa-star"></span>
-      </div>
-      <hr/>
-      <br>
-      <!--Modal  -->
-      <div class="modal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="toast-header">
-              <h5 class="modal-title">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+    <div class="main-container">
+        <div class="nav-container">
+            <nav class="nav-wrap" id="back">
+            <div class="nav-brand">
+                <h1 class="brand-logo">
+                Nue <span>Ui</span>
+                </h1>
             </div>
-            <div class="toast-body">
-              <p>Modal body text goes here.</p>
+            <div class="nav-list-container">
+                <ul class="nav-list">
+                <li>HOME</li>
+                <li><a href="about.html">ABOUT</a></li>
+                </ul>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+            <div>
+                <p class="small" style="color: rgb(105, 104, 104)">
+                <span
+                    ><a
+                    class="link"
+                    href="https://github.com/DanishOnGit/New-component-library"
+                    target="_blank" title="Github repo"
+                    ><i class="fab fa-github"></i></a
+                ></span>
+                V 1.0
+                </p>
             </div>
-          </div>
+            </nav>
         </div>
-      </div>
-      <hr/>
-      <br/>
-      <!-- cards -->
-      <div class="grid">
-        <div class="card" >
-          <img class="card-img-top" src="https://via.placeholder.com/286" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <button class="btn btn-primary">Go somewhere</button>
-          </div>
-        </div>
+        <div class="content-container">  
+            <div class="sidebar">
+                <div class="sidebar_list-container">
+                    <ul class="sidebar_list">
+                        <a href="#alerts"><li>Alerts</li></a>
+                        <a href="#avatars"><li>Avatars</li></a>
+                        <a href="#badges"><li>Badges</li></a>
+                        <a href="#buttons"><li>Buttons</li></a>
+                        <a href=""><li>Cards</li></a>
+                        <a href=""><li>Inputs</li></a>
+                        <a href=""><li>Modals</li></a>
+                        <a href=""><li>Navigation</li></a>
+                        <a href=""><li>Typography</li></a>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-section">
+                <section class="alerts" id="alerts">
+                    <h1>Alerts</h1>
+                    <p>Provide contextual feedback message for user actions!</p>
+                    <br/>
+                    <div class="examples">
+                        <h2 style="font-weight: light;">Examples</h2>
+                        <p>Alerts are available for any length of text. For proper styling use one of the listed below</p>
+                    </div>
+                    <div class="alert-collection">
+                        <div class="alert-primary">This is primary alert</div>
+                        <div class="alert-error">This is error alert</div>
+                        <div class="alert-success">This is success alert</div>
+                        <div class="alert-info">This is info alert</div>
+                        <div class="alert-warning">This is warning alert</div>
+                        <div class="carbon-embed">
+                            <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=18px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-primary%2522%253EThis%2520is%2520primary%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-error%2522%253EThis%2520is%2520error%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-success%2522%253EThis%2520is%2520success%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-info%2522%253EThis%2520is%2520info%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-warning%2522%253EThis%2520is%2520warning%2520alert%253C%252Fdiv%253E"
+                            frameborder="0">
+                            </iframe>
+                        </div>
+                    </div>
+                </section>
+                <br/>
 
-        <div class="card" >
-          <div class="card-body shadow">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
+                <br/>
+                <br/>
+                <section class="avatars" id="avatars">
+                    <h1>Avatars</h1>
+                    <p>The avatar component is a profile image often used in combo with additional elements (e.g., a status element) to provide additional info about a user.</p>
+                    <br/>
+                    <div class="examples">
+                        <h2 style="font-weight: light;">Examples</h2>
+                        <p>You get 3 sizes with a badge which will tell whether the user is offline/online </p>
+                    </div>
+                    <div class="avatar-collection">
+                        <div class="small-avatar-container" style="display: inline;">
+                            <img class="avatar" src="img/emil-widlund-63XLTQplNlg-unsplash.jpg">
+                            <div class="inactive-badge"></div>
+                        </div>
+                        <div class="small-avatar-container" style="display: inline;">
+                            <img class="avatar" src="img/emil-widlund-63XLTQplNlg-unsplash.jpg">
+                            <div class="active-badge"></div>
+                        </div>
+                        <div class="medium-avatar-container" style="display: inline;">
+                            <img class="mid-avatar" src="img/emil-widlund-63XLTQplNlg-unsplash.jpg">
+                            <div class="inactive-badge"></div>
+                        </div>
+                        <div class="medium-avatar-container" style="display: inline;">
+                            <img class="mid-avatar" src="img/emil-widlund-63XLTQplNlg-unsplash.jpg">
+                            <div class="active-badge"></div>
+                        </div>
+                        <div class="large-avatar-container" style="display: inline;">
+                            <img class="large-avatar" src="img/emil-widlund-63XLTQplNlg-unsplash.jpg">
+                            <div class="inactive-badge"></div>
+                        </div>
+                        <div class="large-avatar-container" style="display: inline;">
+                            <img class="large-avatar" src="img/emil-widlund-63XLTQplNlg-unsplash.jpg">
+                            <div class="active-badge"></div>
+                        </div>
+                        <div class="carbon-embed">
+                            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=18px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522small-avatar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522img%252Femil-widlund-63XLTQplNlg-unsplash.jpg%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522inactive-badge%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522small-avatar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522img%252Femil-widlund-63XLTQplNlg-unsplash.jpg%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522active-badge%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522medium-avatar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522mid-avatar%2522%2520src%253D%2522img%252Femil-widlund-63XLTQplNlg-unsplash.jpg%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522inactive-badge%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522medium-avatar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522mid-avatar%2522%2520src%253D%2522img%252Femil-widlund-63XLTQplNlg-unsplash.jpg%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522active-badge%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522large-avatar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522large-avatar%2522%2520src%253D%2522img%252Femil-widlund-63XLTQplNlg-unsplash.jpg%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522inactive-badge%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522large-avatar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522large-avatar%2522%2520src%253D%2522img%252Femil-widlund-63XLTQplNlg-unsplash.jpg%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522active-badge%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="margin-top:5rem; overflow:hidden;" frameborder="0">
+                            </iframe>
+                        </div>
+                    </div>
+                </section>
+                <br/>
+                <br/>
+                <br/>
+                <section class="badges" id="badges">
+                    <h1>Badges</h1>
+                    <p>Badges can be used to label the messages and can be used to maintain a count.</p>
+                    <br/>
+                    <div class="examples">
+                        <h2 style="font-weight: light;">Examples</h2>
+                        <p>You get 5 badges with your customizable text </p>
+                    </div>
+                    <div class="badge-collection">
+                        <span class="primary-badge">primary</span>
+                        <span class="error-badge">error</span>
+                        <span class="success-badge">success</span>
+                        <span class="info-badge">info</span>
+                        <span class="warning-badge">warning</span>
+                        <div class="carbon-embed">
+                            <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=18px&lh=133%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522primary-badge%2522%253Eprimary%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522error-badge%2522%253Eerror%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522success-badge%2522%253Esuccess%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522info-badge%2522%253Einfo%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522warning-badge%2522%253Ewarning%253C%252Fspan%253E"
+                            style="margin-top:5rem; overflow:hidden;"frameborder="0">
+                        </iframe>
+                        </div>
+                    </div>
+                </section>
+                <br/>
+                <br/>
+                <br/>
+                <section class="buttons" id="buttons">
+                    <h1>Buttons</h1>
+                    <p>Badges can be used to label the messages and can be used to maintain a count.</p>
+                    <br/>
+                    <div class="examples">
+                        <h2 style="font-weight: light;">Examples</h2>
+                        <p>You get 5 badges with your customizable text </p>
+                    </div>
+                    <div class="button-collection">
+                        <span class="primary-badge">primary</span>
+                        <span class="error-badge">error</span>
+                        <span class="success-badge">success</span>
+                        <span class="info-badge">info</span>
+                        <span class="warning-badge">warning</span>
+                        <div class="carbon-embed">
+                            <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=18px&lh=133%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522primary-badge%2522%253Eprimary%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522error-badge%2522%253Eerror%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522success-badge%2522%253Esuccess%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522info-badge%2522%253Einfo%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522warning-badge%2522%253Ewarning%253C%252Fspan%253E"
+                            style="margin-top:5rem; overflow:hidden;"frameborder="0">
+                        </iframe>
+                        </div>
+                    </div>
+                </section>
         </div>
-
-        <div class="card" >
-          <div class="img-header">
-            <img class="card-img-top" src="https://via.placeholder.com/286" alt="Card image cap">
-            <button class="card-close close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <span class="primary-badge">New</span> 
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <button class="btn btn-primary">Go somewhere</button>
-          </div>
-        </div>
-
-        <div class="card" >
-          <div class="img-header">
-            <img class="card-img-top" src="https://via.placeholder.com/286" alt="Card image cap">
-            <p class="overlay">Text overlay</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <button class="btn btn-primary">Go somewhere</button>
-          </div>
         </div>
     </div>
 </body>

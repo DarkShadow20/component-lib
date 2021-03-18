@@ -8,7 +8,7 @@
 }
 
 .btn{
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1rem;
     margin: 0.2rem 0.6rem;
     border:none;
     outline: none;
@@ -82,4 +82,30 @@
 }
 .btn-float:hover{
     background-color: #DB2777;
+}
+
+.btn-outline-primary{
+    background-color: #fff;
+    color: var(--pri-color);
+    border: 1px solid var(--pri-color);
+}
+.btn-outline-success{
+    background-color: #fff;
+    color: var(--suc-color);
+    border: 1px solid var(--suc-color);
+}
+.btn-outline-danger{
+    background-color: #fff;
+    color: var(--dang-color);
+    border: 1px solid var(--dang-color);
+}
+.btn-outline-warning{
+    background-color: #fff;
+    color: var(--war-color);
+    border: 1px solid var(--war-color);
+}
+.btn-outline-info{
+    background-color: #fff;
+    color: var(--info-color);
+    border: 1px solid var(--info-color);
 }
