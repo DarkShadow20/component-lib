@@ -17,9 +17,7 @@
 .list-items li:hover{
     cursor: pointer;
 }
-.list-items li:active{
-    color: #F472B6;
-}
+
 .list-items li{
     padding: 0.3rem 2em;
 }

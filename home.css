@@ -48,7 +48,7 @@ iframe
     color: var(--pri-color);
     transition: 300ms ease;
   }
-
+  
   .content-container{
    display: grid;
    grid-template-columns: 1fr 4fr;
@@ -153,4 +153,14 @@ iframe
   footer li:hover{
     color: var(--pri-color);
     transition: 300ms ease;
+  }
+  .about-container{
+    width: 50rem;
+    margin: auto;
+  }
+  .what-wrap{
+    margin: 1rem 0;
+  }
+  .how-wrap{
+    margin: 2.5rem 0 0 0;
   }
