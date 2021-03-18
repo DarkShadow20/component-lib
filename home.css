@@ -4,7 +4,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
+.link{
+  margin: 0 0.5rem;
+}
 p
 {
     padding: 1rem 0 0 1.5rem;
@@ -128,4 +130,27 @@ iframe
   }
   .typography-collection{
     height: 92em;
+  }
+
+  footer{
+    margin-top: 2rem;
+    padding: 2.5rem;
+    background-color: #000;
+    color: #fff;
+  }
+  .fa-heart {
+    color: var(--pri-color);
+  }
+  footer p{
+    margin-bottom: 0.5rem;
+  }
+  footer ul{
+    width: fit-content;
+    /* background-color: yellowgreen; */
+    margin: auto;
+    font-size: 1.5rem;
+  }
+  footer li:hover{
+    color: var(--pri-color);
+    transition: 300ms ease;
   }
