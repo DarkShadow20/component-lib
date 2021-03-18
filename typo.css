@@ -52,3 +52,6 @@ h6{
 .centered-text{
     text-align: center;
 }
+.line{
+    text-decoration: line-through;
+}

@@ -80,7 +80,7 @@ iframe
       margin-right: 2rem;
       border: 1px solid black;
   }
-  .alert-collection, .avatar-collection,.badge-collection,.button-collection{
+  .alert-collection, .avatar-collection,.badge-collection,.button-collection,.card-collection{
     margin: 1.2rem 0 0 1.2rem;
     padding: 1.2rem;
     border: 2px solid rgba(206, 205, 205, 0.548);
@@ -98,4 +98,20 @@ iframe
   }
   .badge-collection span{
     margin: 1rem;
+  }
+  .button-collection{
+    height: 53em;
+  }
+  .button-collection button{
+    margin: 0.9rem 0.5rem;
+  }
+  .card-collection{
+    height: 140em;
+  }
+  .card-collection p{
+    padding: 0.5rem 0 0 0;
+  }
+  .card-collection button{
+    margin-top: 1rem;
+    margin-left: -0.1rem;
   }
