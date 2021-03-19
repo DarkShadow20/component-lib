@@ -11,7 +11,6 @@ p
 {
     padding: 1rem 0 0 1.5rem;
 }
-
 a
 {
     text-decoration: none;
@@ -22,27 +21,39 @@ iframe
     width:100%;
     min-height: 50vh;
 }
-
+.small{
+  color:#fff;
+}
+.link {
+  color: #fff;
+}
+.nav-container{
+  margin-top: -1rem;
+}
+.nav-list-container{
+  margin-left: -55em;
+}
 .nav-wrap {
+  background-color: #7952B3;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 3rem;
   }
-  .brand-logo{
+.brand-logo{
     font-size: 2.5rem;
+    color: #fff;
   }
-  
-  .nav-list {
+.nav-list {
     padding-inline-start: 0;
     list-style: none;
-    display: flex;
-    margin-left: -9rem;
+    display: flex;  
   }
   .nav-list li {
     font-weight: 500;
     margin: 0 1rem;
     cursor: pointer;
+    color: #fff;
   }
   .nav-list li:hover {
     color: var(--pri-color);
