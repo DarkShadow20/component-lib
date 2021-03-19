@@ -20,3 +20,7 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     margin: 1rem;
 }
+.current{
+    font-size: large;
+    color: #F472B6;
+}

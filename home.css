@@ -55,10 +55,9 @@ iframe
    column-gap: 2rem;
   }
   .sidebar{
-    position: sticky;
     top: 0;
     padding:1rem;
-    border: 2px solid rgba(206, 205, 205, 0.548);
+    border-right: 2px solid rgba(206, 205, 205, 0.548);
     overflow-y: hidden;
     height: 100vh;
   }
